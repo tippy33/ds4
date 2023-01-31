@@ -1,0 +1,47 @@
+body{
+	padding: 10px;
+	background-color: #a5a58d;
+	font-size: 125%;
+}
+
+h1{
+  font-size: 150%;
+  font-family: sans-serif;
+  padding: 0.3cm;
+}
+
+h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.3cm;
+}
+
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+footer{
+  font-size: 75%;
+  padding:0.3cm
+}
+
+#index-img{
+  width: 50%;
+}
+
+img{
+  width: 500px;
+  padding: 10px;
+  margin: 20px;
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+}
+
+li{
+  display: inline-block;
+  padding-right: 5px;
+}
