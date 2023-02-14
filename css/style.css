@@ -1,6 +1,6 @@
 body{
 	padding: 10px;
-	background-color: #a5a58d;
+	background-color: #f5f3e7;
 	font-size: 125%;
 }
 
@@ -39,9 +39,26 @@ img{
   border-style: dotted;
   border-color: white;
   border-width: 5px;
+  border-radius: 20px;
 }
 
-li{
+nav ul li{
   display: inline-block;
-  padding-right: 5px;
+  margin-right: 150px;
+  padding: 10px;
+  background-color: #eebab2;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+header > nav {
+  margin: auto;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #333333;
 }
