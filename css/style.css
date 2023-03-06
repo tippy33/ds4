@@ -71,6 +71,12 @@ nav ul li{
   border-radius: 10px;
 }
 
+header {
+  background-image: url('../images/pink-flower-background-image-2.png');
+  background-size: cover;
+  background-color: #f5f3e7;
+}
+
 header > nav {
   margin: auto;
 }
@@ -84,7 +90,7 @@ a:visited{
 }
 
 nav a.current{
-  border: solid 7px #ccd4ef;
+  border: solid 7px #ffffff;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
