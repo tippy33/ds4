@@ -1,3 +1,7 @@
+body > a {
+  font-size: 90%;
+}
+
 body{
 	padding: 10px;
 	background-color: #f5f3e7;
@@ -6,29 +10,35 @@ body{
 
 h1{
   font-size: 220%;
-  font-family: sans-serif;
-  padding: 0.3cm;
+  font-family: "Rampart One", sans-serif;
+  /* color: #ffffff; */
+  padding: 10px
 }
 
 h2{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 0.3cm;
+  padding: 10px;
   font-size: 150%;
 }
 
 h3{
   font-size: 120%;
   font-family: 'Courier New', Courier, monospace;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 p{
   font-size: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 div ul li {
   font-size: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10px;
 }
 
 a{
@@ -37,7 +47,8 @@ a{
 
 footer{
   font-size: 75%;
-  padding:0.3cm
+  padding-top:30px;
+  padding-left:10px;
 }
 
 #index-img{
@@ -47,12 +58,12 @@ footer{
 img{
   width: 500px;
   padding: 10px;
-  margin: 20px;
+  /* margin: 20px; */
   border-style: dotted;
   border-color: #9ad9db;
   border-width: 7px;
   border-radius: 30px;
-}
+}a
 
 img:nth-of-type(even){
   border-style: dotted;
@@ -64,10 +75,10 @@ img:nth-of-type(even){
 
 nav ul li{
   display: inline-block;
-  margin-right: 150px;
+  margin-right: 15px;
   /* padding: 10px; */
   background-color: #eebab2;
-  font-size: 25px;
+  font-size: 17px;
   border-radius: 10px;
 }
 
@@ -75,10 +86,27 @@ header {
   background-image: url('../images/pink-flower-background-image-2.png');
   background-size: cover;
   background-color: #f5f3e7;
+  padding-top: 5px;
 }
 
 header > nav {
+  text-align: center;
   margin: auto;
+}
+
+header > h2 {
+  background-color: #f5f3e7;
+  font-size: 100%;
+}
+
+header .fa-check {
+  color: green;
+}
+
+.container{
+  display: grid;
+  /* grid-template-columns: 1fr 5fr 1fr; */
+  row-gap: 30px;
 }
 
 nav ul li a{
@@ -90,9 +118,13 @@ a:visited{
 }
 
 nav a.current{
-  border: solid 7px #ffffff;
+  border: solid 5px #ffffff;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
 
+}
+
+@media screen and (min-width: 800px) {
+  
 }
