@@ -16,8 +16,10 @@ h1{
 }
 
 h2{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 10px;
+  font-family:Tahoma, sans-serif;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 5px;
   font-size: 150%;
 }
 
@@ -32,7 +34,7 @@ p{
   font-size: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-left: 10px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 div ul li {
@@ -51,12 +53,35 @@ footer{
   padding-left:10px;
 }
 
-#index-img{
+/* #index-img{
   width: 50%;
+} */
+
+@keyframes title_wiggle{
+  from{
+    font-size: 0%;
+    color: #ffffff;
+  }
+  to {
+    font-size: 220%;
+    color:black;
+  }
+}
+
+body #index-h1{
+  animation-name: title_wiggle;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  body #index-h1{
+    animation: none;
+  }
 }
 
 img{
-  width: 500px;
+  width: 100%;
   padding: 10px;
   /* margin: 20px; */
   border-style: dotted;
@@ -131,19 +156,28 @@ main dl {
 }
 
 main dl dt {
+  font-family:Tahoma, sans-serif;
   font-size: 120%;
   padding-left: 10px;
 }
 
 main dl dd {
+  font-family: Tahoma, sans-serif;
   font-size: 100%;
   padding-left: 10px;
+  padding-top: 8px;
 }
 
 main dl p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Tahoma, sans-serif;;
   font-size: 80%;
   padding: 0px;
+}
+
+main dl div {
+  background-color: #eebab2;
+  border-radius: 10px;
+  padding: 8px;
 }
 
 @media screen and (min-width: 800px) {
